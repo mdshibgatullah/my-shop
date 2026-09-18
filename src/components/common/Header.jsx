@@ -8,7 +8,7 @@ import { FaBars, FaTimes } from "react-icons/fa";
 const Header = () => {
     const [isOpen, setIsOpen] = useState(false)
   return (
-    <div>
+    <div className='border-bottom '>
         {/* Top bar  */}
         <div className="bg-top py-2">
             <Container>
@@ -31,28 +31,30 @@ const Header = () => {
         </div>
 
         {/* nav bar */}
-
         <Container>
-        <nav className='d-flex justify-content-between py-3'>
-            <div className="img">
-                <img src={Logo} alt="" width={100}/>
-            </div>
+            <nav className='d-flex justify-content-between align-items-center py-3 position-relative'>
+                <div className="logo">
+                    <img src={Logo} alt="Logo" width={100}/>
+                </div>
 
-            <ul className={`mobile_menu ${isOpen ? 'active' : ''} d-md-flex gap-3`}>
-                <li>Home</li>
-                <li>Shop Now</li>
-                <li>Blog</li>
-                <li>About</li>
-                <li>Contact</li>
-            </ul>
+                <ul className={`mobile_menu ${isOpen ? 'active' : ''} d-flex gap-4`}>
+                    <li>Home</li>
+                    <li>Shop</li>
+                    <li>Blog</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                </ul>
+            
 
-            <button
-             className='bg-transparent border-0 fs-4 d-md-none'
-             onClick={()=> setIsOpen(!isOpen)} >
-                {isOpen ? <FaTimes /> : <FaBars />}
-            </button>
-        </nav>
+                <button onClick={()=> setIsOpen(!isOpen)} className='border-0 bg-transparent fs-4 d-md-none' style={{ zIndex: 1000 }}>
+                    {
+                        isOpen ? <FaTimes /> : <FaBars />
+                    }
+                </button>
+
+            </nav>
         </Container>
+
     </div>
   )
 }
