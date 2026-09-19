@@ -7,6 +7,7 @@ import { FaBars, FaTimes } from "react-icons/fa";
 
 const Header = () => {
     const [isOpen, setIsOpen] = useState(false)
+    const [active, setActive] = useState('Home')
   return (
     <div className='border-bottom '>
         {/* Top bar  */}
@@ -38,11 +39,11 @@ const Header = () => {
                 </div>
 
                 <ul className={`mobile_menu ${isOpen ? 'active' : ''} d-flex gap-4`}>
-                    <li>Home</li>
-                    <li>Shop</li>
-                    <li>Blog</li>
-                    <li>About</li>
-                    <li>Contact</li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
                 </ul>
             
 
