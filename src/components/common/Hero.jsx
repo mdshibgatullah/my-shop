@@ -3,7 +3,7 @@ import { Container } from 'react-bootstrap'
 
 const Hero = () => {
   return (
-    <section className='my-5 ' id='hero_bg'>
+    <section className='my-5' id='hero_bg'>
         <Container>
         <div className='d-flex flex-column gap-3 col-12 col-md-6'>
             <h3 className='text-success fw-bold'>70% Off For This Winter</h3>

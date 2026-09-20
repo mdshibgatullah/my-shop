@@ -1,0 +1,142 @@
+[
+  {
+    "id": 101,
+    "name": "Wireless Bluetooth Earbuds",
+    "category": "Electronics",
+    "price": 49.99,
+    "image": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=500&q=80"
+  },
+  {
+    "id": 102,
+    "name": "Smart Fitness Watch",
+    "category": "Electronics",
+    "price": 89.99,
+    "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80"
+  },
+  {
+    "id": 103,
+    "name": "4K Ultra HD Monitor",
+    "category": "Electronics",
+    "price": 299.99,
+    "image": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?w=500&q=80"
+  },
+  {
+    "id": 104,
+    "name": "Mechanical Gaming Keyboard",
+    "category": "Electronics",
+    "price": 65.50,
+    "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=500&q=80"
+  },
+  {
+    "id": 105,
+    "name": "Classic Denim Jacket",
+    "category": "Fashion",
+    "price": 59.99,
+    "image": "https://images.unsplash.com/photo-1576995853123-5a10305d93c0?w=500&q=80"
+  },
+  {
+    "id": 106,
+    "name": "Casual White Sneakers",
+    "category": "Fashion",
+    "price": 45.00,
+    "image": "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=500&q=80"
+  },
+  {
+    "id": 107,
+    "name": "Polarized Sunglasses",
+    "category": "Fashion",
+    "price": 25.99,
+    "image": "https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=500&q=80"
+  },
+  {
+    "id": 108,
+    "name": "Cotton Graphic T-Shirt",
+    "category": "Fashion",
+    "price": 19.99,
+    "image": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?w=500&q=80"
+  },
+  {
+    "id": 109,
+    "name": "Non-Stick Ceramic Cookware Set",
+    "category": "Home & Kitchen",
+    "price": 110.00,
+    "image": "https://images.unsplash.com/photo-1584992236310-6edddc08acff?w=500&q=80"
+  },
+  {
+    "id": 110,
+    "name": "Electric Kitchen Blender",
+    "category": "Home & Kitchen",
+    "price": 39.99,
+    "image": "https://images.unsplash.com/photo-1570222094114-d054a817e56b?w=500&q=80"
+  },
+  {
+    "id": 111,
+    "name": "Stainless Steel Water Bottle",
+    "category": "Home & Kitchen",
+    "price": 15.50,
+    "image": "https://images.unsplash.com/photo-1602143407151-7111542de6e8?w=500&q=80"
+  },
+  {
+    "id": 112,
+    "name": "Hydrating Face Moisturizer",
+    "category": "Beauty & Care",
+    "price": 22.00,
+    "image": "https://images.unsplash.com/photo-1556228720-195a672e8a03?w=500&q=80"
+  },
+  {
+    "id": 113,
+    "name": "Organic Sunscreen SPF 50",
+    "category": "Beauty & Care",
+    "price": 18.50,
+    "image": "https://images.unsplash.com/photo-1598440947619-2c35fc9aa908?w=500&q=80"
+  },
+  {
+    "id": 114,
+    "name": "Matte Liquid Lipstick",
+    "category": "Beauty & Care",
+    "price": 14.99,
+    "image": "https://images.unsplash.com/photo-1586495777744-4413f21062fa?w=500&q=80"
+  },
+  {
+    "id": 115,
+    "name": "Adjustable Dumbbell Set",
+    "category": "Sports & Fitness",
+    "price": 75.00,
+    "image": "https://images.unsplash.com/photo-1638536532686-d610adfc8e5c?w=500&q=80"
+  },
+  {
+    "id": 116,
+    "name": "Resistance Loop Bands",
+    "category": "Sports & Fitness",
+    "price": 12.99,
+    "image": "https://images.unsplash.com/photo-1598289431512-b97b0917affc?w=500&q=80"
+  },
+  {
+    "id": 117,
+    "name": "Breathable Running Shoes",
+    "category": "Sports & Fitness",
+    "price": 68.00,
+    "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500&q=80"
+  },
+  {
+    "id": 118,
+    "name": "Aesthetic Gel Pen Set",
+    "category": "Books & Stationery",
+    "price": 9.99,
+    "image": "https://images.unsplash.com/photo-1585336261026-8f57857820f6?w=500&q=80"
+  },
+  {
+    "id": 119,
+    "name": "Minimalist Desk Planner",
+    "category": "Books & Stationery",
+    "price": 16.50,
+    "image": "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?w=500&q=80"
+  },
+  {
+    "id": 120,
+    "name": "Bestselling Fiction Novel",
+    "category": "Books & Stationery",
+    "price": 13.99,
+    "image": "https://images.unsplash.com/photo-1512820790803-83ca734da794?w=500&q=80"
+  }
+]
