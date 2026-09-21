@@ -25,6 +25,22 @@ const Products = () => {
                     </div>
                 </div>
             </div>
+
+
+            <div className='pt-4'>
+                {
+                    product.map((pro, i)=>(
+                        <div key={i}>
+                            <div className='d-flex flex-column'>
+                                <img src={pro.image} alt="" width={200}/>
+                                <p>{pro.category}</p>
+                                <h4>{pro.name}</h4>
+                                <p>{pro.price}</p>
+                            </div>
+                        </div>
+                    ))
+                }
+            </div>
         </Container>
         {
         product.map((pro, i)=> (
